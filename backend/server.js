@@ -1,3 +1,1 @@
-console.log(
-    "App is just Starting......"
-)
+console.log("App is just Starting.....")
