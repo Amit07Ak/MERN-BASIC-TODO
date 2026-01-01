@@ -8,8 +8,9 @@ app.use(express.json());
 
 // DB connection
 mongoose
-  .connect("PASTE_YOUR_MONGODB_URI_HERE")
+  .connect("mongodb+srv://yadavamitsingh4201_db_user:U4oLlzAVu1BTPFlX@cluster0.va4rwdx.mongodb.net/todoDB")
   .then(() => console.log("MongoDB connected"))
+  
   .catch((err) => console.log(err));
 
 // test route
