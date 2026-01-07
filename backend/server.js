@@ -8,7 +8,7 @@ app.use(express.json());
 
 // DB connection
 mongoose
-  .connect("mongodb+srv://yadavamitsingh4201_db_user:U4oLlzAVu1BTPFlX@cluster0.va4rwdx.mongodb.net/todoDB")
+  .connect("mongodb+srv://yadavamitsingh4201_db_user:U4oLlzAVu1BTPFlX@cluster0.va4rwdx.mongodb.net/todoDb")
   .then(() => console.log("MongoDB connected"))
   
   .catch((err) => console.log(err));
